@@ -2,7 +2,7 @@
 using System.IO;
 using System.IO.Packaging;
 
-namespace Delinearise
+namespace Deinterleave
 {
     class Program
     {
@@ -10,16 +10,16 @@ namespace Delinearise
         {
             if (args.Length != 2)
             {
-                Console.Error.WriteLine("Syntax: Delinearise input.xps output.xps\n");
+                Console.Error.WriteLine("Syntax: Deinterleave input.xps output.xps\n");
                 return 1;
             }
 
-            DelinearisePackage(args[0], args[1]);
+            DeinterleavePackage(args[0], args[1]);
 
             return 0;
         }
 
-        private static void DelinearisePackage(string inputPath, string outputPath)
+        private static void DeinterleavePackage(string inputPath, string outputPath)
         {
             using (Package inpputPackage = Package.Open(inputPath),
                            outputPackage = Package.Open(outputPath, FileMode.Create))

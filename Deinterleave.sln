@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delinearise", "Delinearise\Delinearise.csproj", "{65F9FF67-597D-498D-98C2-70C10BF3E280}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deinterleave", "Deinterleave\Deinterleave.csproj", "{65F9FF67-597D-498D-98C2-70C10BF3E280}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

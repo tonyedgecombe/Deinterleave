@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Delinearise")]
-[assembly: AssemblyDescription("Delinearise an XPS file")]
+[assembly: AssemblyTitle("Deinterleave")]
+[assembly: AssemblyDescription("Deinterleave an XPS file")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Frogmore Computer Services Ltd")]
-[assembly: AssemblyProduct("Delinearise")]
+[assembly: AssemblyProduct("Deinterleave")]
 [assembly: AssemblyCopyright("Copyright © Frogmore Computer Services Ltd 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
