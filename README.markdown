@@ -25,6 +25,6 @@ Deinterleave is published under the MIT license.
 Building
 --------
 
-A Visual Studio solution and project is included, there is only once source file so it should be trivial to build with Mono although I haven't tried that. Source can be downloaded from [GitHub](https://github.com/tonyedgecombe/Deinterleave).
+A Visual Studio solution and project is included. Source can be downloaded from [GitHub](https://github.com/tonyedgecombe/Deinterleave).
 
 
