@@ -3,6 +3,8 @@ Deinterleave
 
 Deinterleave is a command line tool for Windows that converts interleaved files in an XPS (OPC) file to normal files. I created this to make it easier to debug problems I was encountering while working on XPS files.
 
+Fonts are deobfuscated on the way through and their MIME type changed although the file extension remains the same.
+
 Running Deinterleave
 --------------------
 
